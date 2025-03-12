@@ -14,8 +14,6 @@
 * **tiktoken:** For fast BPE tokenization.
 
 
-
-
 # Ask Your PDF 📄💬
 
 This project is a **PDF-based Question Answering System** built using **LangChain, FAISS, OpenAI embeddings, and Streamlit**. It allows users to upload a PDF file, extract its text, convert it into embeddings, and then ask questions about the content.
@@ -97,5 +95,18 @@ This project is licensed under the **MIT License**.
 - Option to select **different LLM models**.
 - Improved **UI and user experience**.
 - Caching mechanism for **faster responses**.
+
+---
+## 🔹 OpenAI Callback Output Example
+```
+response = chain.run(input_documents = docs, question=user_question)
+Tokens Used: 1027
+        Prompt Tokens: 980
+                Prompt Tokens Cached: 0
+        Completion Tokens: 47
+                Reasoning Tokens: 0
+Successful Requests: 1
+Total Cost (USD): $0.0015639999999999999
+```
 
 
