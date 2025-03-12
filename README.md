@@ -109,4 +109,7 @@ Successful Requests: 1
 Total Cost (USD): $0.0015639999999999999
 ```
 
+# Screen shot:
+![image](https://github.com/user-attachments/assets/38e9fb7e-a260-4e2f-98e0-70e0b2740a38)
+
 
